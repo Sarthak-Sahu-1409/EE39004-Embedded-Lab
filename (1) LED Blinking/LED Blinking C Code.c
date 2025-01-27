@@ -6,7 +6,7 @@
 int main(void) 
 { 
 DDRB=0xFF; //DDRB=0X01; 
-/* Replace with your application code */ 
+
 while (1)  
 { 
     PORTB=0xFF; //PORTB=0X01; 
