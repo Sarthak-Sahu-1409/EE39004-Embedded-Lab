@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32def.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M32DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\Debug\Rectangle.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Rectangle.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Rectangle.map</FILE>
+  <FILE>Rectangle.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\main.asm</FILE><LINE>5</LINE></START>
+  <MAIN_LOOP><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\main.asm</FILE><LINE>14</LINE></MAIN_LOOP>
+  <DELAY><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\main.asm</FILE><LINE>25</LINE></DELAY>
+  <DELAY_LOOP1><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\main.asm</FILE><LINE>27</LINE></DELAY_LOOP1>
+  <DELAY_LOOP2><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\Rectangle\Rectangle\main.asm</FILE><LINE>29</LINE></DELAY_LOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>
