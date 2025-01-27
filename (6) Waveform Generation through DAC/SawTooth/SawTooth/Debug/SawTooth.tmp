@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>c:\users\ssart\Documents\Atmel Studio\7.0\SawTooth\SawTooth\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\ssart\Documents\Atmel Studio\7.0\SawTooth\SawTooth\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32def.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M32DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\ssart\Documents\Atmel Studio\7.0\SawTooth\SawTooth\Debug\SawTooth.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>SawTooth.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>SawTooth.map</FILE>
+  <FILE>SawTooth.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <LOOP><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\SawTooth\SawTooth\main.asm</FILE><LINE>18</LINE></LOOP>
+ </LABELS>
+</ASSEMBLER_INFO>
