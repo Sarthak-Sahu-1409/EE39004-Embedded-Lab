@@ -1,0 +1,61 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega32-1" mainComp="false" Show_id="true" Show_Val="false" Pos="276,576" rotation="0" hflip="1" vflip="1" label="mega32-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Program="../../Users/ssart/Documents/Atmel Studio/7.0/Miscellaneous/Miscellaneous/Debug/Miscellaneous.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Ground" CircId="Ground-3" mainComp="false" Show_id="false" Show_Val="false" Pos="160,720" rotation="0" hflip="1" vflip="1" label="Ground-3" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Capacitor" CircId="Capacitor-4" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="208,716" rotation="0" hflip="1" vflip="1" label="Capacitor-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+
+<item itemtype="Oscope" CircId="Oscope-5" mainComp="false" Show_id="false" Show_Val="false" Pos="500,660" rotation="0" hflip="1" vflip="1" label="Oscope-5" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="Resistor" CircId="Resistor-6" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="208,648" rotation="0" hflip="1" vflip="1" label="Resistor-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-7" mainComp="false" Show_id="false" Show_Val="false" Pos="144,648" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-7" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Push" CircId="Push-10" mainComp="false" Show_id="false" Show_Val="false" Pos="208,684" rotation="0" hflip="1" vflip="1" label="Push-10" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="DAC" CircId="DAC-11" mainComp="false" Show_id="false" Show_Val="false" Pos="368,704" rotation="-360" hflip="1" vflip="-1" label="DAC-11" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="8 _Bits" Vref="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Node" CircId="Node-2" mainComp="false" Pos="180,684" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="248,684" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" Pos="248,648" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="mega32-1-PORTC7" endpinid="DAC-11-in7" pointList="332,672,344,672" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="mega32-1-PORTC2" endpinid="DAC-11-in2" pointList="332,712,344,712" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="DAC-11-out0" endpinid="Oscope-5-Pin0" pointList="392,728,392,612,412,612" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Node-9-2" endpinid="Resistor-6-rPin" pointList="248,648,224,648" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="mega32-1-PORTC3" endpinid="DAC-11-in3" pointList="332,704,344,704" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Fixed Voltage-7-outnod" endpinid="Resistor-6-lPin" pointList="160,648,192,648" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="Node-2-1" endpinid="Capacitor-4-lPin" pointList="180,684,180,716,192,716" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Capacitor-4-rPin" endpinid="Node-8-1" pointList="224,716,248,716,248,684" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Node-8-2" endpinid="Push-10-switch0pinN" pointList="248,684,224,684" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Node-2-2" endpinid="Ground-3-Gnd" pointList="180,684,160,684,160,704" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Node-9-1" endpinid="Node-8-0" pointList="248,648,248,684" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="mega32-1-PORTC0" endpinid="DAC-11-in0" pointList="332,728,344,728" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="mega32-1-PORTC4" endpinid="DAC-11-in4" pointList="332,696,344,696" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="Push-10-pinP0" endpinid="Node-2-0" pointList="192,684,180,684" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="mega32-1-RST" endpinid="Node-9-0" pointList="268,648,248,648" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="mega32-1-PORTC6" endpinid="DAC-11-in6" pointList="332,680,344,680" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="mega32-1-PORTC1" endpinid="DAC-11-in1" pointList="332,720,344,720" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="mega32-1-PORTC5" endpinid="DAC-11-in5" pointList="332,688,344,688" />
+
+</circuit>
