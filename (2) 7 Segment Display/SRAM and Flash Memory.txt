@@ -1,0 +1,100 @@
+SRAM Code
+
+// Write on SRAM Memory then Read 
+// Address 0x0080 to 0x0089 
+// Seven Segment Increment 
+
+.INCLUDE "M32DEF.INC" 
+.ORG 0x0000 
+LDI R16,HIGH(RAMEND) 
+OUT SPH,R16 
+LDI R16,LOW(RAMEND) 
+OUT SPL,R16 
+LDI R16,0xFF 
+OUT DDRA,R16 
+LDI R27,0x00 // For higher byte of register pair X 
+LDI R26,0x80 // For lower byte of register pair X 
+LDI R16,0x3F //Seven Segment Bits for 0 
+ST X+,R16 
+LDI R16,0x06 //Seven Segment Bits for 1 
+ST X+,R16 
+LDI R16,0x5B //Seven Segment Bits for 2 
+ST X+,R16 
+LDI R16,0x4F //Seven Segment Bits for 3 
+ST X+,R16 
+LDI R16,0x66 //Seven Segment Bits for 4 
+ST X+,R16 
+LDI R16,0x6D //Seven Segment Bits for 5 
+ST X+,R16 
+LDI R16,0x7D //Seven Segment Bits for 6 
+ST X+,R16 
+LDI R16,0x07 //Seven Segment Bits for 7 
+ST X+,R16 
+LDI R16,0x7F //Seven Segment Bits for 8 
+ST X+,R16 
+LDI R16,0x6F //Seven Segment Bits for 9 
+ST X,R16 
+LDI R26,0x80; // Make again XL=0x80 
+MAIN: 
+LD R16,X+ 
+OUT PORTA,R16 
+CALL Delay 
+CPI R26,0x8A 
+BRNE MAIN 
+LDI R26,0x80 
+  JMP MAIN 
+ 
+Delay:  LDI R17,0xFF 
+  L1: LDI R18,0xFF 
+  L2: LDI R19,0x04 
+  L3: NOP 
+   DEC R19 
+   BRNE L3 
+   DEC R18 
+   BRNE L2 
+   DEC R17 
+   BRNE L1 
+   RET 
+
+Flash Memory
+
+// Flash Memory Read 
+// Address 0x0400 to 0x0404 
+// Seven Segment Increment 
+ 
+.INCLUDE "M32DEF.INC" 
+.ORG 0x0000 
+ 
+LDI R16,HIGH(RAMEND) 
+OUT SPH,R16 
+LDI R16,LOW(RAMEND) 
+OUT SPL,R16 
+ 
+LDI R16,0xFF 
+OUT DDRA,R16 
+ 
+LDI R31,HIGH(seven_segment<<1) // For higher byte of register pair Z 
+LDI R30,LOW(seven_segment<<1) // For lower byte of register pair Z 
+ 
+MAIN:  LPM R16,Z+ 
+  OUT PORTA,R16 
+  CALL Delay 
+  CPI R30,0x0A 
+  BRNE MAIN 
+  LDI R30,LOW(seven_segment<<1) 
+  JMP MAIN 
+ 
+Delay:  LDI R17,0xFF 
+  L1: LDI R18,0xFF 
+  L2: LDI R19,0x04 
+  L3: NOP 
+   DEC R19 
+   BRNE L3 
+   DEC R18 
+   BRNE L2 
+   DEC R17 
+   BRNE L1 
+   RET 
+ 
+.ORG 0x0400 
+seven_segment: .dB 0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F
