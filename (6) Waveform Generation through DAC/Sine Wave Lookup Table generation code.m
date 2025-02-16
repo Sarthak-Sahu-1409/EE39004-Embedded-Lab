@@ -3,7 +3,7 @@ t = 0:255;
 y = sin((2 * pi * t) / 255); 
 
 % Shift the sine wave up by 1 to make all values positive
-y1 = y + 1; 
+y1 = y; 
 
 % Scale the sine wave to have an amplitude range from 0 to 127 and round it
 y2 = round(127 * y1); 
