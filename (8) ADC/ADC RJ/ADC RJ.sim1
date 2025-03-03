@@ -1,0 +1,139 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="ResistorDip" CircId="ResistorDip-3" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="552,468" rotation="0" hflip="1" vflip="1" label="ResistorDip-3" idLabPos="-24,-40" labelrot="0" valLabPos="5,-26" valLabRot="90" Resistance="100 Ω" Size="10 _Resist." />
+
+<item itemtype="LedBar" CircId="LedBar-12" mainComp="false" Show_id="false" Show_Val="false" Pos="504,468" rotation="0" hflip="-1" vflip="1" label="LedBar-12" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Size="10 _Leds" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-29" mainComp="false" Show_id="false" Show_Val="false" Pos="420,496" rotation="0" hflip="1" vflip="1" label="Ground-29" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-52" mainComp="false" Show_id="false" Show_Val="false" Pos="440,524" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-52" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-54" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="728,420" rotation="0" hflip="1" vflip="1" label="Potentiometer-54" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="10 kΩ" Value_Ohm="3710 Ω" />
+
+<item itemtype="Ground" CircId="Ground-56" mainComp="false" Show_id="false" Show_Val="false" Pos="680,436" rotation="0" hflip="1" vflip="1" label="Ground-56" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-68" mainComp="false" Show_id="false" Show_Val="false" Pos="776,428" rotation="0" hflip="-1" vflip="1" label="Fixed Voltage-68" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-70" mainComp="false" Show_id="false" Show_Val="false" Pos="756,476" rotation="0" hflip="1" vflip="1" label="Voltimeter-70" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-75" mainComp="false" Show_id="false" Show_Val="false" Pos="764,516" rotation="0" hflip="1" vflip="1" label="Ground-75" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-77" mainComp="false" Show_id="false" Show_Val="false" Pos="692,508" rotation="0" hflip="-1" vflip="1" label="Fixed Voltage-77" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="MCU" CircId="mega32-79" mainComp="false" Show_id="true" Show_Val="false" Pos="624,436" rotation="0" hflip="1" vflip="1" label="mega32-79" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../Users/ssart/Documents/Atmel Studio/7.0/ADC Right Justified/ADC Right Justified/Debug/ADC Right Justified.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Node" CircId="Node-32" mainComp="false" Pos="468,500" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="468,492" />
+
+<item itemtype="Node" CircId="Node-38" mainComp="false" Pos="468,452" />
+
+<item itemtype="Node" CircId="Node-41" mainComp="false" Pos="468,460" />
+
+<item itemtype="Node" CircId="Node-44" mainComp="false" Pos="468,468" />
+
+<item itemtype="Node" CircId="Node-47" mainComp="false" Pos="468,476" />
+
+<item itemtype="Node" CircId="Node-50" mainComp="false" Pos="468,484" />
+
+<item itemtype="Node" CircId="Node-63" mainComp="false" Pos="468,508" />
+
+<item itemtype="Node" CircId="Node-66" mainComp="false" Pos="468,516" />
+
+<item itemtype="Node" CircId="Node-126" mainComp="false" Pos="712,444" />
+
+<item itemtype="Connector" uid="connector-80" startpinid="LedBar-12-led0-pinP" endpinid="ResistorDip-3-resistor0-ePin0" pointList="520,444,536,444" />
+
+<item itemtype="Connector" uid="connector-81" startpinid="LedBar-12-led1-pinP" endpinid="ResistorDip-3-resistor1-ePin2" pointList="520,452,536,452" />
+
+<item itemtype="Connector" uid="connector-82" startpinid="LedBar-12-led2-pinP" endpinid="ResistorDip-3-resistor2-ePin4" pointList="520,460,536,460" />
+
+<item itemtype="Connector" uid="connector-83" startpinid="LedBar-12-led3-pinP" endpinid="ResistorDip-3-resistor3-ePin6" pointList="520,468,536,468" />
+
+<item itemtype="Connector" uid="connector-84" startpinid="LedBar-12-led4-pinP" endpinid="ResistorDip-3-resistor4-ePin8" pointList="520,476,536,476" />
+
+<item itemtype="Connector" uid="connector-85" startpinid="LedBar-12-led5-pinP" endpinid="ResistorDip-3-resistor5-ePin10" pointList="520,484,536,484" />
+
+<item itemtype="Connector" uid="connector-86" startpinid="LedBar-12-led6-pinP" endpinid="ResistorDip-3-resistor6-ePin12" pointList="520,492,536,492" />
+
+<item itemtype="Connector" uid="connector-87" startpinid="LedBar-12-led7-pinP" endpinid="ResistorDip-3-resistor7-ePin14" pointList="520,500,536,500" />
+
+<item itemtype="Connector" uid="connector-88" startpinid="Ground-29-Gnd" endpinid="Node-66-0" pointList="420,480,468,480,468,516" />
+
+<item itemtype="Connector" uid="connector-89" startpinid="LedBar-12-led6-pinN" endpinid="Node-35-0" pointList="488,492,468,492" />
+
+<item itemtype="Connector" uid="connector-90" startpinid="Node-32-2" endpinid="LedBar-12-led7-pinN" pointList="468,500,488,500" />
+
+<item itemtype="Connector" uid="connector-91" startpinid="LedBar-12-led0-pinN" endpinid="Node-38-0" pointList="488,444,468,444,468,452" />
+
+<item itemtype="Connector" uid="connector-92" startpinid="Node-35-2" endpinid="Node-32-1" pointList="468,492,468,500" />
+
+<item itemtype="Connector" uid="connector-93" startpinid="LedBar-12-led1-pinN" endpinid="Node-38-1" pointList="488,452,468,452" />
+
+<item itemtype="Connector" uid="connector-94" startpinid="Node-38-2" endpinid="Node-41-0" pointList="468,452,468,460" />
+
+<item itemtype="Connector" uid="connector-95" startpinid="LedBar-12-led2-pinN" endpinid="Node-41-1" pointList="488,460,468,460" />
+
+<item itemtype="Connector" uid="connector-96" startpinid="Node-41-2" endpinid="Node-44-0" pointList="468,460,468,468" />
+
+<item itemtype="Connector" uid="connector-97" startpinid="LedBar-12-led3-pinN" endpinid="Node-44-1" pointList="488,468,468,468" />
+
+<item itemtype="Connector" uid="connector-98" startpinid="Node-44-2" endpinid="Node-47-0" pointList="468,468,468,476" />
+
+<item itemtype="Connector" uid="connector-99" startpinid="LedBar-12-led4-pinN" endpinid="Node-47-1" pointList="488,476,468,476" />
+
+<item itemtype="Connector" uid="connector-100" startpinid="Node-47-2" endpinid="Node-50-0" pointList="468,476,468,484" />
+
+<item itemtype="Connector" uid="connector-101" startpinid="LedBar-12-led5-pinN" endpinid="Node-50-1" pointList="488,484,468,484" />
+
+<item itemtype="Connector" uid="connector-102" startpinid="Node-50-2" endpinid="Node-35-1" pointList="468,484,468,492" />
+
+<item itemtype="Connector" uid="connector-103" startpinid="Ground-56-Gnd" endpinid="Potentiometer-54-PinA" pointList="680,420,712,420" />
+
+<item itemtype="Connector" uid="connector-104" startpinid="LedBar-12-led8-pinP" endpinid="ResistorDip-3-resistor8-ePin16" pointList="520,508,536,508" />
+
+<item itemtype="Connector" uid="connector-105" startpinid="LedBar-12-led9-pinP" endpinid="ResistorDip-3-resistor9-ePin18" pointList="520,516,536,516" />
+
+<item itemtype="Connector" uid="connector-106" startpinid="LedBar-12-led8-pinN" endpinid="Node-63-1" pointList="488,508,468,508" />
+
+<item itemtype="Connector" uid="connector-107" startpinid="Node-63-2" endpinid="Node-32-0" pointList="468,508,468,500" />
+
+<item itemtype="Connector" uid="connector-108" startpinid="LedBar-12-led9-pinN" endpinid="Node-66-1" pointList="488,516,468,516" />
+
+<item itemtype="Connector" uid="connector-109" startpinid="Node-66-2" endpinid="Node-63-0" pointList="468,516,468,508" />
+
+<item itemtype="Connector" uid="connector-110" startpinid="Potentiometer-54-PinB" endpinid="Fixed Voltage-68-outnod" pointList="744,420,760,420,760,428" />
+
+<item itemtype="Connector" uid="connector-111" startpinid="Voltimeter-70-rPin" endpinid="Ground-75-Gnd" pointList="764,492,764,500" />
+
+<item itemtype="Connector" uid="connector-112" startpinid="Voltimeter-70-lPin" endpinid="Node-126-0" pointList="748,492,712,492,712,444" />
+
+<item itemtype="Connector" uid="connector-113" startpinid="ResistorDip-3-resistor0-ePin1" endpinid="mega32-79-PORTB0" pointList="568,444,616,444" />
+
+<item itemtype="Connector" uid="connector-114" startpinid="ResistorDip-3-resistor1-ePin3" endpinid="mega32-79-PORTB1" pointList="568,452,616,452" />
+
+<item itemtype="Connector" uid="connector-115" startpinid="ResistorDip-3-resistor2-ePin5" endpinid="mega32-79-PORTB2" pointList="568,460,616,460" />
+
+<item itemtype="Connector" uid="connector-116" startpinid="ResistorDip-3-resistor3-ePin7" endpinid="mega32-79-PORTB3" pointList="568,468,616,468" />
+
+<item itemtype="Connector" uid="connector-117" startpinid="ResistorDip-3-resistor4-ePin9" endpinid="mega32-79-PORTB4" pointList="568,476,616,476" />
+
+<item itemtype="Connector" uid="connector-118" startpinid="ResistorDip-3-resistor5-ePin11" endpinid="mega32-79-PORTB5" pointList="568,484,616,484" />
+
+<item itemtype="Connector" uid="connector-119" startpinid="ResistorDip-3-resistor6-ePin13" endpinid="mega32-79-PORTB6" pointList="568,492,616,492" />
+
+<item itemtype="Connector" uid="connector-120" startpinid="ResistorDip-3-resistor7-ePin15" endpinid="mega32-79-PORTB7" pointList="568,500,616,500" />
+
+<item itemtype="Connector" uid="Connector-121" startpinid="ResistorDip-3-resistor8-ePin17" endpinid="mega32-79-PORTD0" pointList="568,508,588,508,588,548,616,548" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="ResistorDip-3-resistor9-ePin19" endpinid="mega32-79-PORTD1" pointList="568,516,584,516,584,556,616,556" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="mega32-79-PORTV1" endpinid="Fixed Voltage-77-outnod" pointList="680,508,676,508" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="mega32-79-PORTA0" endpinid="Node-126-1" pointList="680,444,712,444" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="Node-126-2" endpinid="Potentiometer-54-PinM" pointList="712,444,728,444,728,436" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="mega32-79-RST" endpinid="Fixed Voltage-52-outnod" pointList="616,508,604,508,604,524,456,524" />
+
+</circuit>
