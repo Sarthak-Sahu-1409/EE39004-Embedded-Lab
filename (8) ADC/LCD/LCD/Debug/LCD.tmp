@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32def.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M32DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\Debug\LCD.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LCD.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LCD.map</FILE>
+  <FILE>LCD.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Experiment4><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>10</LINE></Experiment4>
+  <MAIN><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>20</LINE></MAIN>
+  <ENABLE><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>117</LINE></ENABLE>
+  <Infinite_Loop><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>54</LINE></Infinite_Loop>
+  <ADC_CONV><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>55</LINE></ADC_CONV>
+  <LOOP_Digit3><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>62</LINE></LOOP_Digit3>
+  <THOUSAND><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>64</LINE></THOUSAND>
+  <THOUSAND_ADD><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>71</LINE></THOUSAND_ADD>
+  <LOOP_Digit2><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>75</LINE></LOOP_Digit2>
+  <LOOP_Digit1><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>84</LINE></LOOP_Digit1>
+  <DELAY><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>128</LINE></DELAY>
+  <LOOP2_EN><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>119</LINE></LOOP2_EN>
+  <LOOP1_EN><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>120</LINE></LOOP1_EN>
+  <LOOP3_DL><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>129</LINE></LOOP3_DL>
+  <LOOP2_DL><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>130</LINE></LOOP2_DL>
+  <LOOP1_DL><FILE>c:\users\ssart\Documents\Atmel Studio\7.0\LCD\LCD\main.asm</FILE><LINE>131</LINE></LOOP1_DL>
+ </LABELS>
+</ASSEMBLER_INFO>
