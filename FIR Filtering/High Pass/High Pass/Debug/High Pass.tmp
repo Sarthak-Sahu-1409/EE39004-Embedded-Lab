@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32def.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M32DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\Debug\High Pass.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>High Pass.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>High Pass.map</FILE>
+  <FILE>High Pass.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\main.asm</FILE><LINE>30</LINE></MAIN>
+  <CONV><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\main.asm</FILE><LINE>33</LINE></CONV>
+  <DELAY><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\main.asm</FILE><LINE>107</LINE></DELAY>
+  <Outer_Loop><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\main.asm</FILE><LINE>109</LINE></Outer_Loop>
+  <Inner_Loop><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\High Pass\High Pass\main.asm</FILE><LINE>111</LINE></Inner_Loop>
+ </LABELS>
+</ASSEMBLER_INFO>

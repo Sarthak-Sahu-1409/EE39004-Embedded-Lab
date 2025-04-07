@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32def.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M32DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\Debug\wave_gen.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>wave_gen.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>wave_gen.map</FILE>
+  <FILE>wave_gen.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DATA><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\main.asm</FILE><LINE>34</LINE></DATA>
+  <MAIN><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\main.asm</FILE><LINE>12</LINE></MAIN>
+  <delay><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\main.asm</FILE><LINE>22</LINE></delay>
+  <OUTER><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\main.asm</FILE><LINE>24</LINE></OUTER>
+  <INNER><FILE>C:\Users\ssart\OneDrive\Desktop\Embedded Lab\FIR Filtering\wave_gen\wave_gen\main.asm</FILE><LINE>26</LINE></INNER>
+ </LABELS>
+</ASSEMBLER_INFO>
